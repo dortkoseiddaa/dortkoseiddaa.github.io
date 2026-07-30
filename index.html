@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dört Köşe — Futbol istatistik ve tahmin uygulaması</title>
+<meta name="description" content="Dört Köşe: futbol maçları için ölçülmüş sicile dayalı istatistik ve tahminler. Bahis oynatmaz, para kabul etmez.">
+<style>
+  :root { --green: #057A43; --ink: #1d241f; --muted: #556159; --bg: #F4F5F0; --amber: #F5C842; }
+  * { box-sizing: border-box; margin: 0; }
+  body { min-height: 100vh; display: flex; align-items: center; justify-content: center;
+         background: var(--bg); color: var(--ink); font-family: system-ui, sans-serif; padding: 1.5rem; }
+  main { max-width: 26rem; text-align: center; }
+  .mark { width: 72px; height: 72px; margin: 0 auto 1.25rem; border-radius: 20px;
+          background: var(--green); position: relative; }
+  .mark::after { content: ""; position: absolute; inset: 22px; border-radius: 50%; background: var(--amber); }
+  h1 { font-size: 2rem; letter-spacing: -0.02em; }
+  .tag { color: var(--green); font-weight: 700; font-size: 0.8rem; letter-spacing: 0.12em;
+         text-transform: uppercase; margin-top: 0.4rem; }
+  p.lead { color: var(--muted); margin: 1rem 0 1.75rem; line-height: 1.55; }
+  .age { display: inline-block; background: #B8433F; color: #fff; font-weight: 800;
+         border-radius: 8px; padding: 0.15rem 0.55rem; font-size: 0.85rem; }
+  footer { margin-top: 1.75rem; font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+  footer a { color: var(--green); }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark" role="img" aria-label="Dört Köşe logosu"></div>
+  <h1>Dört Köşe</h1>
+  <div class="tag">Ters köşe değil</div>
+  <p class="lead">Futbol maçları için ölçülmüş sicile dayalı istatistik ve tahminler.
+  Yakında App Store ve Google Play'de.</p>
+  <span class="age">+18</span>
+  <footer>
+    Uygulama bahis oynatmaz, para kabul etmez. Yalnız istatistik ve tahmin sunar.<br>
+    <a href="/gizlilik/">Gizlilik politikası</a>
+  </footer>
+</main>
+</body>
+</html>
