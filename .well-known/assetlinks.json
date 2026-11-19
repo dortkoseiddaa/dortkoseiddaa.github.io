@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dortkose.mobile",
+      "sha256_cert_fingerprints": [
+        "85:E4:24:A4:58:B7:48:EA:05:4A:33:C8:8B:22:DF:98:B0:B9:D1:AA:F6:78:E9:66:A9:CD:D5:1D:B6:4B:C0:E7"
+      ]
+    }
+  }
+]
